@@ -1,4 +1,4 @@
-package com.sandip.designpattern.structural;
+package com.sandip.designpattern.structural.adapter;
 
 import java.util.ArrayList;
 import java.util.List;

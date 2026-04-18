@@ -1,4 +1,4 @@
-package com.sandip.designpattern.structural;
+package com.sandip.designpattern.structural.adapter;
 
 public class EmployeeFromLDAP {
     private final String empId;

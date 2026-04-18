@@ -1,4 +1,4 @@
-package com.sandip.designpattern.structural;
+package com.sandip.designpattern.structural.adapter;
 
 public interface Employee {
 

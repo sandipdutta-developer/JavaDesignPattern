@@ -1,4 +1,4 @@
-package com.sandip.designpattern.structural;
+package com.sandip.designpattern.structural.adapter;
 
 public class EmployeeFromDB implements Employee {
     private final String id;
