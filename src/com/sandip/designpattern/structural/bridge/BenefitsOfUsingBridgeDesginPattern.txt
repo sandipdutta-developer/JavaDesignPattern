@@ -1,0 +1,14 @@
+Decouples an abstraction from its implementation.
+Reduce Class Explosion : Instead of creating multiple subclasses, can create 2 different hierarchies for each scenario.
+    One will highlight basic features and other will highlight advance features.
+Independent Extensibility : Can add multiple abstractions or new implementations without modifying existing code of the other
+    side of the bridge.
+Improved Maintainability: High-level business logic is separated from low-level platform details.
+    This makes the code easier to read and test, as changes in the implementation don't require recompiling the abstraction.
+Runtime Binding: Unlike standard inheritance which is fixed at compile-time,
+    the Bridge pattern allows you to switch or choose an implementation dynamically at runtime.
+
+
+Need to understand :
+Encapsulation, Composition, Inheritance, Abstract Class, Interfaces, Polymorphism and Dynamic Binding
+Access Modifier like protected
