@@ -1,30 +1,23 @@
 package com.sandip.designpattern.structural.adapter;
 
-public class EmployeeAdapterLdap implements Employee {
-
-    private EmployeeFromLDAP employeeFromLDAP;
-
-    public EmployeeAdapterLdap(EmployeeFromLDAP employeeFromLDAP) {
-        this.employeeFromLDAP = employeeFromLDAP;
-    }
-
+public record EmployeeAdapterLdap(EmployeeFromLDAP employeeFromLDAP) implements Employee {
     @Override
     public String getId() {
-        return employeeFromLDAP.getEmpId();
+        return employeeFromLDAP.empId();
     }
 
     @Override
     public String getName() {
-        return employeeFromLDAP.getEmpName();
+        return employeeFromLDAP.empName();
     }
 
     @Override
     public String getDesignation() {
-        return employeeFromLDAP.getEmpDesignation();
+        return employeeFromLDAP.empDesignation();
     }
 
     @Override
     public String getAddress() {
-        return employeeFromLDAP.getEmpDesignation();
+        return employeeFromLDAP.empAddress();
     }
 }

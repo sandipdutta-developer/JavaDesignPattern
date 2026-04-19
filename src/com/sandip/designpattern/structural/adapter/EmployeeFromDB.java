@@ -14,6 +14,16 @@ public class EmployeeFromDB implements Employee {
     }
 
     @Override
+    public String toString() {
+        return "EmployeeFromDB{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
+
+    @Override
     public String getId() {
         return this.id;
     }

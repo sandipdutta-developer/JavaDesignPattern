@@ -11,7 +11,9 @@ public class EmployeeService {
         employeeList.add(employeeFromDB);
 
         EmployeeFromLDAP employeeFromLDAP = new EmployeeFromLDAP("124", "Sandeep", "Software Analyst", "India");
+        System.out.println(employeeFromLDAP);
         Employee employeeAdapterLdap = new EmployeeAdapterLdap(employeeFromLDAP);
+        employeeList.add(employeeAdapterLdap);
         return employeeList;
     }
 }
