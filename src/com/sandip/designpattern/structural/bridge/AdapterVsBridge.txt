@@ -1,0 +1,8 @@
+Adapter use on top of Legacy classes.
+Provide different interfaces to convert from new design code to retrofit old structure.
+
+
+Bridge
+Design upfront.
+It makes abstraction and implementation vary independent.
+
